@@ -27,8 +27,8 @@ type Client struct {
 type Endpoint struct {
 	DopplerEndpoint string `json:"doppler_logging_endpoint"`
 	LoggingEndpoint string `json:"logging_endpoint"`
-	AuthEndpoint    string `json:"authorization_endpoint"`
-	TokenEndpoint   string `json:"token_endpoint"`
+	AuthEndpoint    string `json:"token_endpoint"`
+	TokenEndpoint   string `json:"authorization_endpoint"`
 }
 
 //Config is used to configure the creation of a client
